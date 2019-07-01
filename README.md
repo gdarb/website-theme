@@ -1,7 +1,7 @@
 # website-theme
 
 
-## General informations
+## General Information
 
 This theme was forked from [rhazdon/hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng).
 
@@ -15,14 +15,14 @@ This theme was forked from [rhazdon/hello-friend-ng](https://github.com/rhazdon/
 - Fully responsive
 - Support for social
 
-#### Built-in shortcodes
+#### Built-in Shortcodes
 
 - **`image`** (prop required: **`src`**; props optional: **`alt`**, **`position`** (**left** is default | center | right), **`style`**)
   - eg: `{{< image src="/img/hello.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}`
 - **`figure`** (same as `image`, plus few optional props: **`caption`**, **`captionPosition`** (left | **center** is default | right), **`captionStyle`**
   - eg: `{{< figure src="/img/hello.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Hello Friend!" captionPosition="right" captionStyle="color: red;" >}}`
 
-#### Code highlighting
+#### Code Highlighting
 
 By default the theme is using PrismJS to color your code syntax. All you need to do is to wrap you code like this:
 
@@ -32,7 +32,7 @@ By default the theme is using PrismJS to color your code syntax. All you need to
 ```
 </pre>
 
-**Supported languages**: https://prismjs.com/#languages-list
+**Supported Languages**: https://prismjs.com/#languages-list
 
 ## How to start
 
@@ -40,16 +40,16 @@ You can download the theme manually by going to [https://github.com/gdarb/websit
 
 You can also clone it directly to your Hugo folder:
 
-```
-$ git clone https://github.com/gdarb/website-theme themes/website-theme
+```sh
+git clone https://github.com/gdarb/website-theme themes/website-theme
 ```
 
 If you don't want to make any radical changes, it's the best option, because you can get new updates when they are available. To do so, include it as a git submodule:
 
+```sh
+git submodule add https://github.com/gdarb/website-theme.git themes/website-theme
 ```
-$ git submodule add https://github.com/gdarb/website-theme.git themes/website-theme
-```
-### Favicon
+### Favicons
 
 Use [RealFaviconGenerator](https://realfavicongenerator.net/) to generate these files, put them into your site's static folder:
 
@@ -132,8 +132,8 @@ theme = "website-theme"
 
 From your Hugo root directory run:
 
-```
-$ hugo server -t website-theme
+```sh
+hugo server -t website-theme
 ```
 
 and go to `localhost:1313` in your browser. From now on all the changes you make will go live, so you don't need to refresh your browser every single time.
@@ -143,14 +143,14 @@ and go to `localhost:1313` in your browser. From now on all the changes you make
 
 If you really want to edit the theme, you need to install Node dependencies. To do this, go to the theme directory (from your Hugo root directory):
 
-```
-$ cd themes/website-theme
+```sh
+cd themes/website-theme
 ```
 
 and then run:
 
-```
-$ npm install
+```sh
+npm install
 ```
 
 
