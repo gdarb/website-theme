@@ -1,12 +1,9 @@
-# Hello Friend NG
-
-![Hello Friend NG](https://dsh.re/d27822)
-
+# website-theme
 
 
 ## General informations
 
-This theme was highly inspired by the [hello-friend](https://github.com/panr/hugo-theme-hello-friend) and [hermit](https://github.com/Track3/hermit).
+This theme was forked from [rhazdon/hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng).
 
 
 ## Features
@@ -39,18 +36,18 @@ By default the theme is using PrismJS to color your code syntax. All you need to
 
 ## How to start
 
-You can download the theme manually by going to [https://github.com/rhazdon/hugo-theme-hello-friend-ng.git](https://github.com/rhazdon/hugo-theme-hello-friend-ng.git) and pasting it to `themes/hello-friend-ng` in your root directory.
+You can download the theme manually by going to [https://github.com/gdarb/website-theme.git](https://github.com/rhazdon/hugo-theme-hello-friend-ng.git) and pasting it to `themes/website-theme` in your root directory.
 
 You can also clone it directly to your Hugo folder:
 
 ```
-$ git clone https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+$ git clone https://github.com/gdarb/website-theme themes/website-theme
 ```
 
 If you don't want to make any radical changes, it's the best option, because you can get new updates when they are available. To do so, include it as a git submodule:
 
 ```
-$ git submodule add https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+$ git submodule add https://github.com/gdarb/website-theme.git themes/website-theme
 ```
 ### Favicon
 
@@ -73,7 +70,7 @@ The theme doesn't require any advanced configuration. Just copy:
 ```
 baseurl = "/"
 languageCode = "en-us"
-theme = "hello-friend-ng"
+theme = "website-theme"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -82,7 +79,7 @@ theme = "hello-friend-ng"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Homepage and blog by Djordje Atlialp"
+  description = "Homepage and blog by Aidan Miles"
   keywords = "homepage, blog, science, informatics, development, programming"
   images = [""]
 
@@ -93,7 +90,7 @@ theme = "hello-friend-ng"
 
 [languages]
   [languages.en]
-    title = "Hello Friend NG"
+    title = "website-theme"
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = ""
@@ -136,7 +133,7 @@ theme = "hello-friend-ng"
 From your Hugo root directory run:
 
 ```
-$ hugo server -t hello-friend-ng
+$ hugo server -t website-theme
 ```
 
 and go to `localhost:1313` in your browser. From now on all the changes you make will go live, so you don't need to refresh your browser every single time.
@@ -147,7 +144,7 @@ and go to `localhost:1313` in your browser. From now on all the changes you make
 If you really want to edit the theme, you need to install Node dependencies. To do this, go to the theme directory (from your Hugo root directory):
 
 ```
-$ cd themes/hello-friend-ng
+$ cd themes/website-theme
 ```
 
 and then run:
@@ -159,7 +156,7 @@ $ npm install
 
 ## How to contribute
 
-If you spot any bugs, please use [Issue Tracker](https://github.com/rhazdon/hugo-theme-hello-friend-ng/issues) or if you want to add a new feature directly please create a new [Pull Request](https://github.com/rhazdon/hugo-theme-hello-friend-ng/pulls).
+If you spot any bugs, please use [Issue Tracker](https://github.com/gdarb/website-theme/issues) or if you want to add a new feature directly please create a new [Pull Request](https://github.com/gdarb/website-theme/pulls).
 
 
 ## Third Party
@@ -171,6 +168,6 @@ If you spot any bugs, please use [Issue Tracker](https://github.com/rhazdon/hugo
 
 ## Licence
 
-Copyright © 2019 Djordje Atlialp
+Copyright © 2019 Aidan Miles
 
-The theme is released under the MIT License. Check the [original theme license](https://github.com/rhazdon/hugo-theme-hello-friend-ng/blob/master/LICENSE.md) for additional licensing information.
+The theme is released under the MIT License. Check the [original theme license](https://github.com/gdarb/website-theme/blob/master/LICENSE.md) for additional licensing information.
