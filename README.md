@@ -168,6 +168,7 @@ If you spot any bugs, please use [Issue Tracker](https://github.com/gdarb/websit
 
 ## Licence
 
+Copyright © 2019 Djordje Atlialp  
 Copyright © 2019 Aidan Miles
 
 The theme is released under the MIT License. Check the [original theme license](https://github.com/gdarb/website-theme/blob/master/LICENSE.md) for additional licensing information.
