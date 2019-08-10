@@ -1,6 +1,8 @@
 MIT License
 
-Copyright (c) 2019 Djordje Atlialp
+Copyright (c) 2018 Track3  
+Copyright (c) 2019 panr  
+Copyright (c) 2019 Djordje Atlialp  
 Copyright (c) 2019 Aidan Miles
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
